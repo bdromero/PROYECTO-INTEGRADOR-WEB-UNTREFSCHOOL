@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --claro: #EFF5F5;
+    --verde: #1F8A70;
+    --gris: #38454F;
+    --azul: #00425A;
+    --violeta: #181823;
+    --naranja: #FC7300;
+}
+
+body {
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+  
+body * {
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {    
+    background-color: var(--claro);
+}
+
+header div {
+    display: flex; 
+    justify-content: center;
+}
+
+nav {
+    background-color: var(--azul);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+  
+nav ul li {
+    margin: 20px;
+}
+  
+nav ul li a {
+    position: relative;
+    margin: 15px;
+    font-size: 25px;
+    color: var(--claro);
+    text-decoration: none;
+}
+
+nav ul li a:before {
+    content: "";
+    background: var(--naranja);
+    position: absolute;
+    bottom: -10px;
+    width: 0%;
+    height: 5px;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+    transition: 1s;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    padding: 3%;  
+}
+
+.h2-propuestas {
+    padding: 3%;
+}
+
+.section-propuestas{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    border-radius: 5%;
+    height: 650px;
+    width: 352px;
+    background-color: #d3cfcfc2;
+    margin-top: 8px;
+    position: relative;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.card-top-desarrollo {
+    background-image: url(../img/desarrollo.jpg);
+}
+
+.card-top-redes {
+    background-image: url(../img/redes.jpg);
+}
+
+.card-top-seguridad {
+    background-image: url(../img/seguridad.jpg);
+}
+
+.card-top-mecatronica {
+    background-image: url(../img/mecatronica.jpg);
+}
+
+.card-top {
+    background-size: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    height: 300px;
+}
+
+.a-ver-mas {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px 55px;
+    background-color: var(--azul);
+}
+  
+.a-ver-mas:hover {
+    font-size: 1.2rem;
+    background-color: var(--violeta);
+}
+
+
+
