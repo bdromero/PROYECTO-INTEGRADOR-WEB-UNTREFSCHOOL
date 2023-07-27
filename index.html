@@ -1,83 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>UntrefSchool</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Menu Responsive</title>
+  </head>
+
+  <body>
+
     <header>
-        <nav>
-            <ul>
-              <li><a href="#">Quienes somos</a></li>
-              <li><a href="#">¿Por qué elegirnos?</a></li>
-              <li><a href="#">Propuesta educativa</a></li>
-              <li><a href="#">Últimas noticias</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-          </nav>
-        <div>
-            <img class="img-portada" src="./img/portada.jpg" alt="">
-        </div>
-        
+      <h1>UntrefSchool</h1>
+      <nav>
+        <ul>
+          <li><a href="#quienes_somos">Quienes somos</a></li>
+          <li><a href="#por_que_elegirnos">¿Por qué elegirnos?</a></li>
+          <li><a href="#propuesta_educativa">Propuesta Educativa</a></li>
+          <li><a href="#ultimas_noticias">Últimas noticias</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-        <section>Quienes somos</section>
-        
-        <section>¿Por qué elegirnos?</section>
-        
-        <h2 class="h2-propuestas">Propuesta educativa</h2>
-        <section class="section-propuestas">            
+      <img src="./img/portada.jpg" alt="Portada" class="img-portada" />
 
-            <div class="card">
-                <div class="card-top-desarrollo card-top"></div>
-                <div class="card-bottom">
-                  <h2 >Desarrollo de Software</h2>
-                  <p>Un desarrollador de software es el profesional que se encarga de diseñar, crear y elaborar software mediante el uso de lenguajes de programación.</p>
-                  <a href="#" target="_blank" class="a-ver-mas">
-                    Ver mas
-                  </a>
-                </div>
-            </div>
+      <h2>La educación del futuro, hoy.</h2>
 
-            <div class="card">
-                <div class="card-top-redes card-top"></div>
-                <div class="card-bottom">
-                  <h2 >Redes Informáticas</h2>
-                  <p>Actualmente, ante el gran avance digital y tecnológico, es necesario contar con especialistas que sepan lograr la comunicación entre dispositivos, que vinculen la tecnología, optimicen el servicio y operen desde redes informáticas hasta servidores.</p>
-                  <a href="#" target="_blank" class="a-ver-mas">
-                    Ver mas
-                  </a>
-                </div>
-            </div>
+      <section class="section-1">
+        <div class="div-section-1">
+          <h3 id="quienes_somos">Quienes somos</h3>
+          <p>
+            UntrefSchool es una escuela primaria de gestión privada que forma a
+            los ñiños para que se conviertan en los líderes del mañana,
+            inculcando valores y principios, utilizando las últimas tecnologías
+            y técnicas de enseñanza, pero siempre haciendo énfasis en los
+            conocimientos fundamentales que deberán aplicar a lo largo de toda
+            su vida.
+          </p>
+        </div>
+        <img
+          src="./img/quienessomos.jpg"
+          alt="QuienesSomos"
+          class="img-section"
+        />
+      </section>
 
-            <div class="card">
-                <div class="card-top-seguridad card-top"></div>
-                <div class="card-bottom">
-                  <h2 >Seguridad Informática</h2>
-                  <p>El objetivo de esta carrera es formar profesionales comprometidos con el resguardo de la protección y privacidad de la información en sistemas informáticos.</p>
-                  <a href="#" target="_blank" class="a-ver-mas">
-                    Ver mas
-                  </a>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-top-mecatronica card-top"></div>
-                <div class="card-bottom">
-                  <h2 >Mecatrónica</h2>
-                  <p>Gestiona la planificación del mantenimiento de equipos e instalaciones de tecnología e infraestructura mecatrónica, vinculados a los sistemas mecánicos, hidráulicos, neumáticos, eléctricos, electrónicos e informáticos.</p>
-                  <a href="#" target="_blank" class="a-ver-mas">
-                    Ver mas
-                  </a>
-                </div>
-            </div>
-         
-        </section>
+      <section class="section-2">
+        <div>
+          <h3 id="por_que_elegirnos">¿Por qué elegirnos?</h3>
+          <p>
+            Los egresados de nuestra prestigiosa institución hoy son destacados
+            estudiantes de los niveles superiores, profesionales de renombre,
+            líderes de organizaciones, empresarios exitosos. Sobran los
+            testimonios, mas de 50 años educando a los niños de nuestra región.
+          </p>
+        </div>
+        <img
+          src="./img/porque-elegirnos.jpg"
+          alt="QuienesSomos"
+          class="img-section"
+        />
+      </section>
 
-        <section>Últimas noticias</section>
+      <h3 id="propuesta_educativa">Propuesta educativa</h3>
+
+      <div class="avisos">
+        <strong>DOBLE JORNADA</strong>
+        <strong>INTERNADO OPCIONAL</strong>
+      </div>
+
+      <div class="section-propuestas">
+        <div class="card">
+          <div class="card-top-arte card-top"></div>
+          <div class="card-bottom">
+            <p class="titulo-propuesta">Actividades artísticas</p>
+            <p class="descripcion-propuesta">
+              Dibujo y pintura, diseño gráfico, escultura y danzas.
+            </p>
+            <a href="#" target="_blank" class="a-ver-mas"> Ver mas </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top-robot card-top"></div>
+          <div class="card-bottom">
+            <p class="titulo-propuesta">Robótica e impresión 3D</p>
+            <p class="descripcion-propuesta">
+              Crea tus propios juguetes animados.
+            </p>
+            <a href="#" target="_blank" class="a-ver-mas"> Ver mas </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top-deporte card-top"></div>
+          <div class="card-bottom">
+            <p class="titulo-propuesta">Actividades deportivas</p>
+            <p class="descripcion-propuesta">
+              Polideportivo, piscina climatizada, gimnasio.
+            </p>
+            <a href="#" target="_blank" class="a-ver-mas"> Ver mas </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top-idioma card-top"></div>
+          <div class="card-bottom">
+            <p class="titulo-propuesta">Enseñanza bilingüe</p>
+            <p class="descripcion-propuesta">
+              Contenidos en español e inglés. Intercambios.
+            </p>
+            <a href="#" target="_blank" class="a-ver-mas"> Ver mas </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top-informatica card-top"></div>
+          <div class="card-bottom">
+            <p class="titulo-propuesta">Informática</p>
+            <p class="descripcion-propuesta">
+              Programación, ofimática y juegos.
+            </p>
+            <a href="#" target="_blank" class="a-ver-mas"> Ver mas </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top-musica card-top"></div>
+          <div class="card-bottom">
+            <p class="titulo-propuesta">Orquesta y coro infantil</p>
+            <p class="descripcion-propuesta">
+              Reconocido a nivel nacional, anfiteatro propio.
+            </p>
+            <a href="#" target="_blank" class="a-ver-mas"> Ver mas </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="propuesta-mobile">
+        <figure>
+          <img src="./img/idiomas.png" alt="" />
+          <figcaption>Enseñanza Bilingüe</figcaption>
+        </figure>
+
+        <figure>
+          <img src="./img/deportes.png" alt="" />
+          <figcaption>Actividades deportivas</figcaption>
+        </figure>
+
+        <figure>
+          <img src="./img/musica.png" alt="" />
+          <figcaption>Orquesta y coro infantil</figcaption>
+        </figure>
+
+        <figure>
+          <img src="./img/arte.png" alt="" />
+          <figcaption>Actividades artísticas</figcaption>
+        </figure>
+
+        <figure>
+          <img src="./img/informatica.png" alt="" />
+          <figcaption>Informática</figcaption>
+        </figure>
+
+        <figure>
+          <img src="./img/robot.png" alt="" />
+          <figcaption>Robótica e impresión 3D</figcaption>
+        </figure>
+      </div>
+
+      <h3 id="ultimas_noticias">Últimas noticias</h3>
+
+      <section class="ulimas-noticias">
+        <article>
+          <h2>Intercolegial 2023</h2>
+          <p>Nuestro equipo de fúltbol se consagró campeón del Intercolegial 2023.</p>
+          <a href="#">Continuar leyendo...</a>
+        </article>
+        <article>
+          <h2>Concierto</h2>
+          <p>Con motivo de conmemorarse un nuevo aniversario de nuestra ciudad, la orquesta participará en los eventos culturales organizados por la Municipalidad.</p>
+          <a href="#">Continuar leyendo...</a>
+        </article>
+        <article>
+          <h2>Olimpíadas de matemáticas</h2>
+          <p>Tenemos el agrado de comunicar que nuestro equipo superó la instancia provincial y se dirige a las nacionales.</p>
+          <a href="#">Continuar leyendo...</a>
+        </article>
+
+      </section>
+
+      
     </main>
-    <footer></footer>    
-</body>
+
+    <footer>
+      <div class="redes-sociales">
+        <h4>Redes sociales</h4>
+        <img src="./img/facebook.png" alt="Facebook" />
+        <img src="./img/instagram.png" alt="Instagram" />
+        <img src="./img/twitter.png" alt="Twitter" />
+      </div>
+
+      <div class="ubicacion">
+        <h4>UntrefSchool</h4>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.903475816794!2d-59.666274642400076!3d-29.167516525194273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944eba9a3ba2dbab%3A0x350cd5b5c9792e95!2sReconquista%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1690489418292!5m2!1ses!2sar"
+          width="150"
+          height="150"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="contacto">
+        <h4>Contacto</h4>
+        <p>Teléfono: (03482) 439-000</p>
+        <p>WhatsApp: (03482) 15-454545</p>
+        <p>Email: secretaria@untref.edu.ar</p>
+      </div>
+    </footer>
+  </body>
 </html>
