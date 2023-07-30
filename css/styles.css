@@ -19,6 +19,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+main {
+    background-color: #f4eed4;
+}
+
 h1 {
     padding: 0.5rem;
     text-align: center;
@@ -186,7 +190,7 @@ footer div p {
 
     body {
         max-width: 768px;
-        margin: 0 auto;
+        margin: auto;
     }
     
     ul {

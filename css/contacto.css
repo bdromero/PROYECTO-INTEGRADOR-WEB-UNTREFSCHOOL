@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+:root {
+    --claro: #EFF5F5;
+    --verde: #1F8A70;
+    --gris-claro: #8ba6ac;
+    --azul: #00425A;
+    --violeta: #181823;
+    --naranja: #FC7300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Belanosima', sans-serif;
+}
+
+main {
+    background-color: #f4ead5;
+}
+
+form {
+    max-width: 75%;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    background: var(--azul);
+    border-radius: 0.8rem;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    /* width: 50%;
+    margin-left: 25%; */
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    border: none;
+    font-size: 1rem;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--verde);
+    color: var(--claro);
+    margin-bottom: 1.5rem;
+}
+
+::placeholder {
+    color: var(--claro);
+    font-size: 0.8rem;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    background-color: var(--naranja);
+    border: var(--naranja);
+}
+
+button[type="reset"] {
+    background-color: var(--gris-claro);
+    border: var(--gris-claro);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.8rem;
+    color: var(--claro);
+}
+
+@media (min-width: 768px) {
+    body {
+        max-width: 768px;
+        margin: auto;
+    }
+
+    div {
+        justify-content: space-between;
+        align-items: center;
+        border: 10px;
+        border-style: none solid;
+        border-color: red;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    a {
+        color: black;
+    }
+}

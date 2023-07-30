@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <title>UntrefSchool</title>
+  </head>
+  <body>
+    <main>
+      <h1>UntrefSchool</h1>
+      <div>
+        <h2>Contacto:</h2>
+        <a href="index.html">Volver</a>
+      </div>
+
+      <form action="https://formsubmit.co/dowab48954@inkiny.com" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required />
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" required />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="telefono">Teléfono:</label>
+        <input
+          type="tel"
+          name="telefono"
+          id="telefono"
+          placeholder="Sin 0 ni 15"
+        />
+
+        <label for="comentario">Comentario:</label>
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+
+        <button type="reset">Cancelar</button>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
