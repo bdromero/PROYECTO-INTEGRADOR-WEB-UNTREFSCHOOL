@@ -116,14 +116,41 @@ figure {
     text-align: center;
 }
 
-section article {
-    margin: 1rem;
+.a-figure {
+    color: var(--azul);
+    font-weight: bold;
+    text-decoration: none;
 }
 
-/* section article h2, p {
-    background-color: lightgray;
+a.a-figure:hover{
+    background-color: #d5d87d;
+    font-size: 1.2rem;
+}
+
+article {
+    margin: 1rem;
+    background-color: #d3ad98;
+    padding: 0.5rem;
+}
+
+.h2-article, .p-article, .a-article {
     text-align: left;
-} */
+}
+
+.h2-article {
+    background-color: #d3ad98;    
+}
+
+.a-article {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: bold;
+}
+
+a.a-article:hover {
+    text-shadow: var(--verde) 1px 0 10px;
+}
 
 footer {
     display: flex;
