@@ -19,10 +19,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-main {
-    background-color: #f4eed4;
-}
-
 h1 {
     padding: 0.5rem;
     text-align: center;
@@ -54,6 +50,7 @@ li a {
 main {
     display: flex;
     flex-direction: column;
+    background-color: #f4eed4;
 }
 
 .img-portada {
@@ -131,7 +128,7 @@ a.a-figure:hover{
     font-size: 1.2rem;
 }
 
-article {
+.ultimas-noticias {
     margin: 1rem;
     background-color: #d3ad98;
     padding: 0.5rem;
@@ -234,7 +231,7 @@ footer div p {
     }
     
     .card-top-robot {
-        background-image: url(../img/ciencia.jpg);
+        background-image: url(../img/robot.jpg);
     }
     
     .card-top-deporte {
