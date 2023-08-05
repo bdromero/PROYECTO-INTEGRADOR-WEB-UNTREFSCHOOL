@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" type="image/png" href="./img/favicon.png" >
     <title>UntrefSchool</title>
   </head>
 
@@ -24,11 +25,17 @@
     <main>
       <img src="./img/portada.jpg" alt="Portada" class="img-portada" />
 
-      <h2>La educación del futuro, hoy.</h2>
+      <div class="portada-desktop">
+        <div class="img-portada-desktop img-1" ></div>
+        <div class="img-portada-desktop img-2" ></div>
+        <div class="img-portada-desktop img-3" ></div>
+      </div>
+
+      <h2 class="h2-portada">La educación del futuro, hoy.</h2>      
 
       <section class="section-1">
-        <div class="div-section-1">
-          <h3 id="quienes_somos">Quienes somos</h3>
+        <div>
+          <h3 class="h3-section" id="quienes_somos">Quienes somos</h3>
           <p>
             UntrefSchool es una escuela primaria de gestión privada que forma a
             los ñiños para que se conviertan en los líderes del mañana,
@@ -38,11 +45,7 @@
             su vida.
           </p>
         </div>
-        <img
-          src="./img/quienes-somos.jpg"
-          alt=""
-          class="img-section"
-        />
+        <img src="./img/quienes-somos.jpg" alt="" class="img-section" />
       </section>
 
       <section class="section-2">
@@ -55,14 +58,10 @@
             testimonios, mas de 50 años educando a los niños de nuestra región.
           </p>
         </div>
-        <img
-          src="./img/porque-elegirnos.jpg"
-          alt=""
-          class="img-section"
-        />
+        <img src="./img/porque-elegirnos.jpg" alt="" class="img-section" />
       </section>
 
-      <section>
+      <section class="section-3">
         <h3 id="propuesta_educativa">Propuesta educativa</h3>
 
         <div class="avisos">
@@ -183,11 +182,10 @@
         </div>
       </section>
 
-      <section>
+      <section class="section-4">
         <h3 id="ultimas_noticias">Últimas noticias</h3>
 
         <article>
-
           <article class="ultimas-noticias">
             <h2 class="h2-article">Intercolegial 2023</h2>
             <p class="p-article">
@@ -215,18 +213,22 @@
             </p>
             <a class="a-article" href="#">Continuar leyendo...</a>
           </article>
-
         </article>
       </section>
-
     </main>
 
     <footer>
       <div class="redes-sociales">
         <h4>Redes sociales</h4>
-        <img src="./img/facebook.png" alt="Facebook" />
-        <img src="./img/instagram.png" alt="Instagram" />
-        <img src="./img/twitter.png" alt="Twitter" />
+        <a href="https://es-la.facebook.com/" target="_blank">
+          <img src="./img/facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="./img/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://twitter.com/?lang=es" target="_blank">
+          <img src="./img/twitter.png" alt="Twitter" />
+        </a>
       </div>
 
       <div class="ubicacion">
